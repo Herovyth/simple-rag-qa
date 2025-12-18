@@ -1,0 +1,9 @@
+datasets
+gradio
+sbert
+rank_bm25
+pdfplumber
+PyMuPDF
+litellm
+torch
+transformers

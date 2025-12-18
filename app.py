@@ -88,6 +88,7 @@ def rag_pipeline(query, search_mode, api_key):
     return answer, "\n\n---\n\n".join(formatted_chunks)
 
 
-demo = create_ui(rag_pipeline)
-print("Gradio ready")
-demo.launch()
+if __name__ == "__main__":
+    demo = create_ui(rag_pipeline)
+    demo.launch()
+
